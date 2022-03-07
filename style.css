@@ -1,0 +1,70 @@
+form {
+    margin: 0;
+    padding: 0;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+form label {
+    margin: 5px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+label * {
+    width: 250px;
+    height: 30px;
+    border: none;
+    outline: 2px solid navy;
+}
+body {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+.container:first-child{
+    padding: 15px;
+    justify-content: start;
+    overflow-y: scroll;
+}
+table {
+    border: 2px solid black !important;
+}
+.btnFordelete {
+    color: white;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
