@@ -1,14 +1,6 @@
 {
   "employees": [
     {
-      "name": "Vugar ",
-      "surname": "Hesenov",
-      "age": "18",
-      "salary": "2500",
-      "sex": "male",
-      "id": 3
-    },
-    {
       "name": "Asim",
       "surname": "Mahmudov",
       "age": "18",
@@ -49,12 +41,20 @@
       "id": 10
     },
     {
-      "name": "Eliheyder",
-      "surname": "Rzazade",
-      "age": "28",
-      "salary": "1234",
+      "name": "Vugar",
+      "surname": "Hesenov",
+      "age": "18",
+      "salary": "1800",
       "sex": "male",
-      "id": 11
+      "id": 12
+    },
+    {
+      "name": "Isa",
+      "surname": "Mammadli",
+      "age": "18",
+      "salary": "3000",
+      "sex": "male",
+      "id": 13
     }
   ]
 }
