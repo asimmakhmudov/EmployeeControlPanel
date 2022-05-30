@@ -74,12 +74,26 @@ h1 {
 ::-webkit-scrollbar {
     width: 10px;
 }
-::-webkit-scrollbar-track {
-    background: #f1f1f1; 
-}
 ::-webkit-scrollbar-thumb {
     background: #888; 
 }
 ::-webkit-scrollbar-thumb:hover {
     background: #555; 
 }
+
+
+@media screen and (max-width: 600px) {
+    body {
+        flex-direction: column-reverse;
+    }
+    .container {
+        width: 100%;
+    }
+    .container:first-child{
+        padding: 25px;
+        justify-content: start;
+        overflow-y: scroll;
+        transform: translateY(90deg);
+    }
+}
+    
