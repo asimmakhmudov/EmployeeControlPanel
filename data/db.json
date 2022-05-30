@@ -9,30 +9,6 @@
       "id": 4
     },
     {
-      "name": "Telman",
-      "surname": "Qadimov",
-      "age": "18",
-      "salary": "1700",
-      "sex": "male",
-      "id": 5
-    },
-    {
-      "name": "Senan",
-      "surname": "Muzafferov",
-      "age": "18",
-      "salary": "1900",
-      "sex": "male",
-      "id": 7
-    },
-    {
-      "name": "John",
-      "surname": "Austen",
-      "age": "27",
-      "salary": "3000",
-      "sex": "male",
-      "id": 9
-    },
-    {
       "name": "Alison",
       "surname": "Austen",
       "age": "26",
@@ -41,20 +17,20 @@
       "id": 10
     },
     {
-      "name": "Vugar",
-      "surname": "Hesenov",
-      "age": "18",
-      "salary": "1800",
-      "sex": "male",
-      "id": 12
-    },
-    {
       "name": "Isa",
       "surname": "Mammadli",
       "age": "18",
       "salary": "3000",
       "sex": "male",
       "id": 13
+    },
+    {
+      "name": "Vugar",
+      "surname": "Hesenov",
+      "age": "19",
+      "salary": "3000",
+      "sex": "male",
+      "id": 14
     }
   ]
 }
