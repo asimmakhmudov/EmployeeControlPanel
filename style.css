@@ -11,7 +11,7 @@ form {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
 }
 form label {
     margin: 5px;
@@ -41,7 +41,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100%;
-    background: wheat;
+    background: #c1c1c1;
     width: 50%;
 }
 .container:first-child{
